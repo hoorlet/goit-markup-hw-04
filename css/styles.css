@@ -293,9 +293,9 @@ img {
 .team-social-link:focus {
   background-color: var(--accent-text-color);
 }
-.team-social-link:hover .icon,
-.team-social-link:focus .icon {
-  fill: #fff;
+.team-social-link:hover,
+.team-social-link:focus {
+  color: #fff;
 }
 .button-icons:not(:last-child) {
   margin-right: 10px;
@@ -323,12 +323,12 @@ img {
   border: 1px solid #afb1b8;
   border-radius: 4%;
 }
-.clients-link:hover,
-.clients-link:focus {
-  border-color: var(--accent-text-color);
+.clients-link {
+  fill: #afb1b8;
 }
 .clients-link:hover,
 .clients-link:focus {
+  border-color: var(--accent-text-color);
   fill: var(--accent-text-color);
 }
 
